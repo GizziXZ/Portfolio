@@ -1,0 +1,111 @@
+body {
+  background-image: url(/images/bluewaves.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#panel {
+  width: 300px;
+  padding: 0;
+  border: 4px solid gray;
+  margin: 0;
+}
+a {
+  color: #0099ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.panel-side {
+  border-top: 4px solid #0099ff;
+  position: fixed;
+  top: 0;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#panel {
+  position: fixed;
+  top: 4px;
+  width: 70%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #141414;
+  font-weight: 100;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  border: solid #000;
+  border-width: 0 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.text-center {
+  text-align: center;
+  width: 66.66666667%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#panel hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-top-color: #373737;
+}
+.logo {
+  margin: 20px auto;
+  vertical-align: middle;
+  width: 135px;
+  border: 2px solid white;
+  background-color: #141516;
+  padding: 0;
+  border-radius: 50%;
+}
+#panel h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  margin: 0 0 5px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  display: block;
+}
+p.bio {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+  padding: 20px 0;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-icon {
+  padding: 5px;
+  min-width: 42px;
+  min-height: 42px;
+  margin-right: 5px;
+  font-size: 29px;
+  text-align: center;
+}
+.btn {
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  background: 0 0;
+}
