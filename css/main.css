@@ -23,10 +23,59 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
+.panel-side2 {
+  border-top: 4px solid #0099ff;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#EthCommands {
+  color: #0099ff;
+  position: absolute;
+  left: 490px;
+  top: 150px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  padding: 20px 0;
+}
+#Leveling {
+  color: #0099ff;
+  position: absolute;
+  left:700px;
+  top: 600px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  padding: 20px 0;
+}
+.bar {
+  border-top: 6px solid darkblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 #panel {
   position: fixed;
   top: 4px;
   width: 70%;
+  min-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #141414;
+  font-weight: 100;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  border: solid #000;
+  border-width: 0 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+#panel2 {
+  position: fixed;
+  top: 4px;
+  width: 80%;
   min-height: 100%;
   left: 50%;
   transform: translateX(-50%);
